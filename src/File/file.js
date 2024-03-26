@@ -23,7 +23,7 @@ const UploadFiles = () => {
     }
     
         try {
-            const response = await fetch('http://localhost:8080/getExcelByPdf', {
+            const response = await fetch('http://3.27.111.54:8080/getExcelByPdf', {
                 method: 'POST',
                 body: formData
             });
@@ -64,7 +64,7 @@ const UploadFiles = () => {
         }
  
         try {
-            const response = await fetch('http://localhost:8080/meargeExcelFiles', {
+            const response = await fetch('http://3.27.111.54:8080/meargeExcelFiles', {
                 method: 'POST',
                 body: formData
             });
