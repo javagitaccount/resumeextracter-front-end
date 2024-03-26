@@ -1,0 +1,215 @@
+.cont {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+ 
+.cont2 {
+    background-color: rgb(11, 95, 163);
+    border-width: 5px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 20px;
+}
+ 
+.img-logo {
+    width: 300px;
+    height: 200px;
+}
+ 
+.card-div {
+    border-radius: 20px;
+    width: 75%;
+    height: 550px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+ 
+.cont1 {
+    align-items: center;
+}
+ 
+.div-btn {
+    text-align: center;
+}
+ 
+.main-heading {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+ 
+.btn-upload {
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px;
+    text-align: center;
+    margin-top: 8px;
+}
+ 
+.input-ele {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+    margin-top: 2px;
+    height: 45px;
+}
+ 
+.img-upload {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 1px;
+}
+ 
+/* Media queries for different screen sizes */
+ 
+@media (min-width: 1200px) {
+    .img-logo {
+        width: 600px;
+        height: 400px;
+    }
+ 
+    .main-heading {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+ 
+    .btn-upload {
+        width: 160px;
+        height: 35px;
+        margin-top: 15px;
+    }
+ 
+    .input-ele {
+        width: 260px;
+    }
+ 
+    .img-upload {
+        width: 60px;
+        height: 60px;
+    }
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .img-logo {
+        width: 550px;
+        height: 450px;
+    }
+ 
+    .main-heading {
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+ 
+    .btn-upload {
+        width: 160px;
+        height: 35px;
+        margin-top: 15px;
+    }
+ 
+    .input-ele {
+        width: 260px;
+    }
+ 
+    .img-upload {
+        width: 60px;
+        height: 60px;
+    }
+}
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+    .img-logo {
+        width: 450px;
+        height: 350px;
+    }
+ 
+    .main-heading {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+ 
+    .btn-upload {
+        width: 170px;
+        height: 40px;
+        margin-top: 8px;
+    }
+ 
+    .input-ele {
+        width: 180px;
+        height: 45px;
+    }
+ 
+    .img-upload {
+        width: 35px;
+        height: 35px;
+    }
+}
+ 
+@media (max-width: 767px) {
+    .img-logo {
+        width: 300px;
+        height: 150px;
+    }
+ 
+    .main-heading {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+ 
+    .btn-upload {
+        width: 140px;
+        height: 55px;
+        margin-top: 8px;
+    }
+ 
+    .input-ele {
+        width: 150px;
+        height: 40px;
+    }
+ 
+    .img-upload {
+        width: 25px;
+        height: 25px;
+    }
+}
+ 
+@media (max-width: 575px) {
+    .img-logo {
+        width: 250px;
+        height: 150px;
+    }
+ 
+    .main-heading {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+ 
+    .btn-upload {
+        width: 120px;
+        height: 60px;
+        margin-top: 8px;
+    }
+ 
+    .input-ele {
+        width: 120px;
+        height: 45px;
+    }
+ 
+    .img-upload {
+        width: 40px;
+        height: 40px;
+    }
+}
+ 
